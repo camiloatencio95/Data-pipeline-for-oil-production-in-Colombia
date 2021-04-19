@@ -18,6 +18,12 @@ You should also change the password and root of your localhost server when creat
 `motor =sqlalchemy.create_engine('mysql+pymysql://your_user:your_pswd@localhost:3306/oil_analysis')`
 
 
+## Components
+  In this project you will find 3 different python scripts:
+    * `main_script.py` Which is the main script and the one that should be run everytime we need to actually update the records on our database.
+    * `get_files.py` Which will is in charge of the webscrapping proccess to point the program to the source of the published data by the ANH.
+    * `clean_files.py` Which is the script in charge of builing a dataframe with the right format and perfmorming all the data cleaning tasks. 
+    
 ## Technologies used in this project
 
 * [Python]
