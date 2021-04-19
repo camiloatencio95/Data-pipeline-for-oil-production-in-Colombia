@@ -20,9 +20,9 @@ You should also change the password and root of your localhost server when creat
 
 ## Components
   In this project you will find 3 different python scripts:\n
-   * `main_script.py` Which is the main script and the one that should be run everytime we need to actually update the records on our database.\n
-   * `get_files.py` Which will is in charge of the webscrapping proccess to point the program to the source of the published data by the ANH.\n
-   * `clean_files.py` Which is the script in charge of builing a dataframe with the right format and perfmorming all the data cleaning tasks. \n
+   * `main_script.py` Which is the main script and the one that should be run everytime we need to actually update the records on our database.
+   * `get_files.py` Which will is in charge of the webscrapping proccess to point the program to the source of the published data by the ANH.
+   * `clean_files.py` Which is the script in charge of builing a dataframe with the right format and perfmorming all the data cleaning tasks.
     
 ## Technologies used in this project
 
